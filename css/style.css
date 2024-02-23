@@ -68,6 +68,7 @@
 .desktopSection{
     margin: 5px auto;
     width: 80%;
+    
 }
 .grpStats{
     display: flex;
@@ -95,10 +96,24 @@
     gap: 10px;
     
 }
+.verify{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grp-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 .trust-score{
     display: flex;
-    margin:10px ;
+    margin-top:20px ;
+    margin-bottom: 10px;
 }
 
 a{
@@ -112,6 +127,56 @@ a{
     border: 5px solid white;
 }
 
+section-item.--app .introduction:before {
+    content: "";
+    position: absolute;
+    background: url(../img/blue-pill.svg) no-repeat;
+    width: 90px;
+    height: 120px;
+    left: 50%;
+    margin-left: 0;
+    bottom: -25px;
+    z-index: 2;
+    background-size: contain;
+}
+
+.desktopSection:before {
+    content: "";
+    position: absolute;
+    background: url(../img/blue-pill.svg) no-repeat;
+    width: 90px;
+    height: 120px;
+    left: 50%;
+    margin-left: 0;
+    bottom: -25px;
+    z-index: 2;
+    background-size: contain;
+}
+
+.desktopSection .miniSubText:before  {
+    content: "";
+    position: absolute;
+    background: url(../img/pink-cam.svg) no-repeat;
+    width: 90px;
+    height: 120px;
+    left: 50%;
+    margin-left: 0;
+    bottom: -25px;
+    z-index: 2;
+    background-size: contain;
+}
+
+.desktopSection:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background: url(../img/wave.png) 50% 100% no-repeat;
+    background-size: 750px;
+    bottom: -1px;
+    left: 0;
+    z-index: 1;
+}
 
 
 
