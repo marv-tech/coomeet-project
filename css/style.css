@@ -107,9 +107,6 @@
     align-items: center;
 }
 
-
-
-
 .trust-score{
     display: flex;
     margin-top:20px ;
@@ -127,7 +124,15 @@ a{
     border: 5px solid white;
 }
 
-section-item.--app .introduction:before {
+.desk-only{
+    display: none;
+}
+
+.btn-desk-only{
+    display: none;
+}
+
+/* section-item.--app .introduction:before {
     content: "";
     position: absolute;
     background: url(../img/blue-pill.svg) no-repeat;
@@ -138,9 +143,9 @@ section-item.--app .introduction:before {
     bottom: -25px;
     z-index: 2;
     background-size: contain;
-}
+} */
 
-.desktopSection:before {
+/* .desktopSection:before {
     content: "";
     position: absolute;
     background: url(../img/blue-pill.svg) no-repeat;
@@ -151,9 +156,9 @@ section-item.--app .introduction:before {
     bottom: -25px;
     z-index: 2;
     background-size: contain;
-}
+} */
 
-.desktopSection .miniSubText:before  {
+/* .desktopSection .miniSubText:before  {
     content: "";
     position: absolute;
     background: url(../img/pink-cam.svg) no-repeat;
@@ -164,9 +169,9 @@ section-item.--app .introduction:before {
     bottom: -25px;
     z-index: 2;
     background-size: contain;
-}
+} */
 
-.desktopSection:after {
+/* .desktopSection:after {
     content: "";
     position: absolute;
     width: 100%;
@@ -176,15 +181,78 @@ section-item.--app .introduction:before {
     bottom: -1px;
     left: 0;
     z-index: 1;
-}
+} */
 
 
 
 @media only screen and (min-width: 768px) {
     .desktopSection{
         display: flex;
-        justify-content: center;
-      
+        width: 100%;       
+    }
+
+    .text-titles{
+        line-height: 98px;
+
+    }
+
+    .heading1{
+        font-size: 75px;
+        width: 70%;
+        margin: 40px auto;
+    }
+
+    .grpStats{
+        display: none;
+    }
+
+    .miniSubText{
+        display: none;
+    }
+
+    .desk-only{
+        display: block;
+    }
+
+    .btn-desk-only{
+        display: flex;
+        margin: 30px;
+    }
+
+    .subText{
+        margin-right: 90px;
+        margin-left: 30px;
+        margin-bottom: 60px;
+        line-height: 40px;
+        font-size: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .grp-imgs{
+        display: block;
+        flex-basis: 60%;
+        padding: 60px;
+    }
+
+    .button{
+        height: 90px;
+        font-size: 25px;
+        border-radius: 15px;
+        margin-bottom: 5px;
+    }
+
+    .miniText{
+        margin-top: 0;
+    }
+
+    .stats{
+        width: 350px;
+    }
+
+    .mini{
+        font-size: 30px !important;
+        
     }
 
 }
