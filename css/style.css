@@ -15,6 +15,11 @@
 
     overflow: hidden;
 }
+
+.nav{
+    padding: 20px;
+
+}
 .text-titles{
     padding: 0 20px 0 20px;
     margin-bottom: 0;
