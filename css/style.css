@@ -42,12 +42,12 @@
     margin: 10px auto;
     border-radius: 10px;
     color: white !important;
-    background-color: #2046B3;
+    background-color: #0a35fa;
 }
 
 .miniText{
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     color: #494f5e !important;
 }
 
@@ -68,6 +68,7 @@
 .desktopSection{
     margin: 5px auto;
     width: 80%;
+    /* border: 2px solid red; */
     
 }
 .grpStats{
@@ -105,6 +106,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 2px solid red; */
 }
 
 .trust-score{
@@ -121,7 +123,7 @@ a{
 .score{
     border-radius: 50%;
     padding: 10px;
-    border: 5px solid white;
+    border: 1px solid white;
 }
 
 .desk-only{
@@ -183,7 +185,13 @@ a{
     z-index: 1;
 } */
 
+.small{
+    display: block;
+}
 
+.big{
+    display: none;
+}
 
 @media only screen and (min-width: 768px) {
     .desktopSection{
@@ -192,14 +200,13 @@ a{
     }
 
     .text-titles{
-        line-height: 98px;
+       padding-left: 65px;
+       padding-right: 65px;
 
     }
 
     .heading1{
-        font-size: 75px;
-        width: 70%;
-        margin: 40px auto;
+        font-size: 60px;
     }
 
     .grpStats{
@@ -216,30 +223,29 @@ a{
 
     .btn-desk-only{
         display: flex;
-        margin: 30px;
+        margin: 10px;
     }
 
     .subText{
-        margin-right: 90px;
-        margin-left: 30px;
-        margin-bottom: 60px;
+        margin-bottom: 25px;
         line-height: 40px;
-        font-size: 30px;
-        padding-left: 30px;
-        padding-right: 30px;
+        font-size: 25px;
+        margin-top: 0;
     }
 
     .grp-imgs{
         display: block;
-        flex-basis: 60%;
-        padding: 60px;
+        padding: 20px;
+        margin: 20px;
     }
 
     .button{
-        height: 90px;
-        font-size: 25px;
-        border-radius: 15px;
-        margin-bottom: 5px;
+        width: 460px;
+        height: 60px;
+        font-size: 18px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        background-color: #0a35fa;
     }
 
     .miniText{
@@ -247,12 +253,20 @@ a{
     }
 
     .stats{
-        width: 350px;
+        width: 250px;
+        height: 60px;
+        font-size: 14px;
     }
 
-    .mini{
-        font-size: 30px !important;
-        
+    .small{
+        display: none;
     }
+
+    .big{
+        display: block;
+        width: 540px; 
+        height:387px;
+    }
+
 
 }
