@@ -443,6 +443,102 @@ a{
     color: #655c9b;
 }
 
+.ready-to{
+    color: #182337;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    position: relative;
+    box-sizing: border-box;
+    background: #fff;
+    background-clip: padding-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 8px 8px 8px 20px;
+    border: 2px solid #ffebf1;
+    margin: 30px auto;
+    border-radius: 12px;
+    width: auto;
+    min-width: min-content;
+    max-width: max-content;
+}
+
+.ready-to-icon{
+    color: #182337;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-family: inter semi bold,Arial,sans-serif;
+    margin-bottom: 0;
+    margin-right: 25px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+
+
+.ready-to-btn{
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+    resize: none;
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+    transition: .3s;
+    white-space: nowrap;
+    max-width: 430px;
+    width: auto;
+    padding: 20px 30px;
+    height: 60px;
+    line-height: 22px;
+    font-family: inter semi bold,Arial,sans-serif;
+    color: #fff;
+    background: #0a35fa;
+    box-shadow: 0 0 20px rgba(255,255,255,.2) inset;
+    border-radius: 10px;
+    margin-bottom: 0;
+    min-width: 320px;
+    font-size: 20px;
+}
+
+.ready-to-icon span{
+    color: #182337;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
 @media only screen and (min-width: 1025px) {
 
     #main-page{
@@ -451,9 +547,8 @@ a{
     }
 
     .desktopSection{
-        padding: 0;
-        /* margin: 0; */
         display: flex;
+        padding: 0;
         width: 100%;       
     }
 
@@ -477,7 +572,8 @@ a{
     }
 
     .heading1{
-        font-size: 60px;
+        font-size: 65px;
+        width: 550px;
     }
 
     .grpStats{
@@ -506,7 +602,7 @@ a{
 
     .grp-imgs{
         display: block;
-        flex-basis: 80%;
+        flex-basis: 100%;
         padding: 20px;
         margin: 20px;
     }
