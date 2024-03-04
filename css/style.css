@@ -1,4 +1,5 @@
 /* Mobile first design */
+
 * body{
     box-sizing: border-box;
     height: 100%;
@@ -12,7 +13,6 @@
 #main-page{
     width: 100%;
    background:  linear-gradient(0deg,rgba(255,255,255,.85),rgba(255,255,255,.85)),linear-gradient(252.44deg,#1ca5fc 0,#f55280 100%);
-
     overflow: hidden;
 }
 
@@ -20,11 +20,10 @@
     position: relative;
 }
 
-
 .nav{
     padding: 20px;
-
 }
+
 .text-titles{
     padding: 0 20px 0 20px;
     margin-bottom: 0;
@@ -39,8 +38,6 @@
     line-height: 28px;
     font-weight: 400;
     color: rgb(36, 36, 36);
-    /* line-height: 40px; */
-
 }
 
 .button{
@@ -55,6 +52,7 @@
     color: white !important;
     background-color: #0a35fa;
 }
+
 .button p{
     font-size: 18px;
     font-weight: 500;
@@ -69,25 +67,25 @@
 .nav{
     text-align: center;
 }
+
 .heading1{
     text-align: center;
     font-size: 50px;
     font-weight: 600;
     padding-bottom: 0;
-
 }
 
 .desktopSection{
     margin: 5px auto;
-    width: 80%;
-    
+    width: 80%;  
 }
+
 .grpStats{
     display: flex;
     align-items: center;
-    justify-content:center;
-   
+    justify-content:center; 
 }
+
 .stats{
     background-color: rgba(255, 255, 255, 0.616);
     border-radius: 10px;
@@ -97,7 +95,6 @@
     padding: 10px 0 0 0;  
 }
 
-
 .ratings{
     display: flex;
     justify-content: center;
@@ -105,9 +102,9 @@
     padding-left: 25px ;
     padding-right: 25px ;
     margin: 15px;
-    gap: 10px;
-    
+    gap: 10px; 
 }
+
 .verify{
     text-align: center;
     margin-bottom: 20px;
@@ -117,7 +114,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid red; */
 }
 
 .trust-score{
@@ -184,18 +180,18 @@ a{
     background-size: contain;
 } */
 
-.desktopSection:after {
+/* .desktopSection:after {
     content: "";
     position: absolute;
     width: 100%;
     height: 150px;
     background: url(../img/wave.png) 50% 100% no-repeat;
     background-size: 750px;
-    bottom: -1px;
+    bottom: -50px;
     left: 0px;
     /* right: 0; */
-    z-index: 1;
-}
+    /* z-index: 2;
+} */ 
 
 .small{
     display: block;
@@ -204,6 +200,7 @@ a{
 .big{
     display: none;
 }
+
 .sect2title{
     color: #182337;
     box-sizing: border-box;
@@ -221,12 +218,14 @@ a{
 #sect2{
     text-align: center;
 }
+
 .description{
     padding-left: 25px;
     padding-right: 25px;
     font-size: 20px;
     line-height: 35px;
 }
+
 .extLink{
     margin: 20px;
 }
@@ -236,7 +235,8 @@ a{
     font-size: 20px;
     color: #0a35fa;
 }
- .ext:after{
+
+.ext:after{
     display: inline-block;
     content: "";
     margin: -3px 6px;
@@ -249,7 +249,6 @@ a{
 .sect3{
     display: block;
     margin-top: 50px;
-
 }
 
 .main-man{
@@ -444,14 +443,21 @@ a{
     color: #655c9b;
 }
 
-@media only screen and (min-width: 768px) {
-    .desktopSection{
-        display: flex;
-        width: 100%;       
-        
+@media only screen and (min-width: 1025px) {
+
+    #main-page{
+        overflow: hidden;
+        margin: 0;
     }
 
-    .desktopSection:after {
+    .desktopSection{
+        padding: 0;
+        /* margin: 0; */
+        display: flex;
+        width: 100%;       
+    }
+
+    /* .desktopSection:after {
         content: "";
         position: absolute;
         width: 100%;
@@ -462,7 +468,7 @@ a{
         left: 0px;
        
         z-index: 1;
-    }
+    } */
 
     .text-titles{
        padding-left: 65px;
@@ -500,6 +506,7 @@ a{
 
     .grp-imgs{
         display: block;
+        flex-basis: 80%;
         padding: 20px;
         margin: 20px;
     }
@@ -525,6 +532,7 @@ a{
         width: 250px;
         height: 60px;
         font-size: 14px;
+       
     }
 
     .small{
@@ -533,7 +541,7 @@ a{
 
     .big{
         display: block;
-        width: 540px; 
+        width: 100%; 
         height:387px;
     }
 
@@ -545,15 +553,20 @@ a{
 
     .main-text{
         order: 1;
+        margin-top: 30px;
+        
     }
 
     .main-man{
         text-align: center;
         order: 2;
+        margin-top: 0;
     }
 
     .main-text2{
         order:3 ;
+        margin-top: 30px;
+        
     }
 
     .description{
@@ -567,57 +580,66 @@ a{
         position: relative;
         text-align: left;
         height: auto;
-        padding: 20px 46px 20px 20px
+        padding: 30px 56px 30px 30px;
+        width:100%;
+       margin-bottom: 20px;
     }
+
     .main-text :after{
         content:"";
         position: absolute;
         width: 42px;
-        height: 42px
+        height: 42px;
+    }
 
+    .main-text2 :after{
+        content:"";
+        position: absolute;
+        width: 42px;
+        height: 42px;
     }
 
     .first:after{
         background:url(../img/first.svg) no-repeat;
         right: -35px;
-        top: 37px
+        top: 37px;
     }
 
     .second:after{
         background:url(../img/second.svg) no-repeat;
         right: -35px;
-        top: 30px
+        top: 30px;
     }
 
     .third:after{
         background:url(../img/third.svg) no-repeat;
         right: -35px;
-        top: 5px
+        top: 5px;
     }
 
     .fourth:after{
         background:url(../img/fourth.svg) no-repeat;
         left: -30px;
-        top: 30px
-
+        top: 30px;
     }
 
     .fifth:after{
         background:url(../img/fifth.svg) no-repeat;
         left: -30px;
-        top: 35px
-
+        top: 35px;
     }
 
     .sixth:after{
         background:url(../img/sixth.svg) no-repeat;
         left: -30px;
-        top: 7px
+        top: 7px;
     }
    
 
     .main-man-image{
-        margin: 0 40px
+        margin: 0 40px;
+        max-width: 300px;
+        height: auto;
     }
    
 }
