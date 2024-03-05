@@ -538,6 +538,9 @@ a{
     font: inherit;
     vertical-align: baseline;
 }
+.features{
+    display: flex;
+}
 
 @media only screen and (min-width: 1025px) {
 
