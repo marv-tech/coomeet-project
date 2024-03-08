@@ -572,7 +572,11 @@ a{
     box-sizing: border-box;
     margin-bottom: 20px;
     background: #fff;
-    border: 1px solid transparent;
+    border: 5px solid;
+    border-top:1px solid rgba(245,82,128,.2509803922);
+    border-bottom:1px solid rgba(245,82,128,.2509803922);
+    border-left:1px solid rgba(245,82,128,.2509803922);
+    border-right: 1px solid rgba(28,165,252,.2509803922);
     background-clip: padding-box;
     border-radius: 20px
 }
@@ -936,12 +940,20 @@ a{
 
     .benefit-items{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 45% 45%;
+        gap: 2%;
+       margin-left: 5%;
     
     }
 
-    .benefit-item{
-       /* border: 2px solid red; */
+    .benefit-item span{
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    .icon-txt{
+        font-weight: 600;
+        font-size: 22px;
     }
 
     
