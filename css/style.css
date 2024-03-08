@@ -663,6 +663,7 @@ a{
 
 .sect6{
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .sect6-title{
@@ -718,13 +719,14 @@ a{
     color: #182337;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding-bottom: 15px;
+    padding-top: 10px;
     border: 0;
     font: inherit;
     vertical-align: baseline;
     font-weight: 600;
     line-height: 28px;
-    font-size: 35px;
+    font-size: 30px;
 
 }
 
@@ -739,6 +741,19 @@ a{
     padding: 0;
     font-size: 20px;
     line-height: 26px;
+}
+
+.sect7{
+    background:  linear-gradient(0deg,rgba(255,255,255,.85),rgba(255,255,255,.85)),linear-gradient(252.44deg,#1ca5fc 0,#f55280 100%);
+
+}
+
+.sect7-title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
 }
 
 
@@ -1066,6 +1081,7 @@ a{
 
     .map-item{
         flex-basis: 30%;
+        height: 150px;
     }
 
     
