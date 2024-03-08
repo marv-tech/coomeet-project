@@ -1,6 +1,6 @@
 
 
-# Coomeet Dating Site
+# Coomeet Dating Site (Still in progress)
 
 Coomeet Dating Site is a project aimed at replicating the functionality of an existing [dating site](https://coomeet.com/) Using HTML, CSS, and JavaScript, this project provides users with a familiar and user-friendly platform for connecting and interacting with potential matches.
 
