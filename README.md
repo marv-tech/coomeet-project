@@ -15,19 +15,7 @@ Coomeet Dating Site is a project aimed at replicating the functionality of an ex
 - CSS: Used for styling the web pages and enhancing the user interface.
 - JavaScript: Used for implementing dynamic and interactive features on the website.
 
-## Installation
 
-1. Clone the repository to your local machine:
-   ```
-   git clone https://github.com/yourusername/coomeet-dating-site.git
-   ```
-
-2. Navigate to the project directory:
-   ```
-   cd coomeet-dating-site
-   ```
-
-3. Open the `index.html` file in your web browser to view the website.
 
 ## Contributing
 
