@@ -726,7 +726,7 @@ a{
     vertical-align: baseline;
     font-weight: 600;
     line-height: 28px;
-    font-size: 30px;
+    font-size: 27px;
 
 }
 
@@ -1082,6 +1082,28 @@ a{
     .map-item{
         flex-basis: 30%;
         height: 150px;
+    }
+
+    .sect8{
+        display: flex;
+    }
+
+    .sect8-title{
+        color: #182337;
+        box-sizing: border-box;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        padding: 0;
+        font-size: 36px;
+        line-height: 43px;
+        text-align: center;
+        max-width: 305px;
+        margin: 0 auto 40px;
+    }
+
+    .sect8-div-1{
+        margin-top: 90px;
     }
 
     
