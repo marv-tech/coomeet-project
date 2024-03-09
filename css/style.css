@@ -756,6 +756,37 @@ a{
 
 }
 
+.txt-div{
+    font-weight: 500;
+    font-size: 30px;
+   text-align: center;
+    
+}
+
+.sect8-div-1 p{
+    box-sizing: border-box;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+    line-height: 30px;
+    margin: 50px;
+    color: #182337;
+    text-align: center;
+}
+.sect8-div-2-img{
+    width: 658px;
+    aspect-ratio: auto 658 / 689;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    max-width: 100%;
+    height: auto;
+}
 
 
 
@@ -1088,22 +1119,35 @@ a{
         display: flex;
     }
 
-    .sect8-title{
-        color: #182337;
+
+    .txt-div{
+        font-weight: 600;
+        font-size: 36px;
+        padding-left: 45px;
+        max-width: 405px;
+    }
+
+    .sect8-div-1 p{
         box-sizing: border-box;
         border: 0;
         font: inherit;
         vertical-align: baseline;
+        margin: 0;
         padding: 0;
-        font-size: 36px;
-        line-height: 43px;
-        text-align: center;
-        max-width: 305px;
-        margin: 0 auto 40px;
+        font-size: 21px;
+        line-height: 30px;
+        margin: 50px;
+        color: #182337;
+        text-align: left;
     }
 
     .sect8-div-1{
         margin-top: 90px;
+    }
+
+    .sect8-div-2-img{
+        max-width: 600px;
+        height: auto;
     }
 
     
