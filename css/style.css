@@ -726,7 +726,7 @@ a{
     vertical-align: baseline;
     font-weight: 600;
     line-height: 28px;
-    font-size: 27px;
+    font-size: 25px;
 
 }
 
@@ -851,6 +851,209 @@ a{
     background: url(../img/google.svg) center no-repeat;
     background-size: contain;
 }
+
+footer{
+    color: #182337;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    display: block;
+    padding: 30px 20px;
+    background: linear-gradient(180deg,#fff 0,rgba(255,255,255,0) 100%),#fff;
+    box-shadow: 0 -1px 20px rgba(0,0,0,.07);
+}
+
+.footer-nav{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.footer-menu{
+    text-align: justify;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    display: block;
+    margin-top: 0;
+    width: 100%;
+    max-width: 490px;
+}
+
+
+.footer-menu li {
+    display: block;
+    width: auto;
+    margin: 0 22px
+}
+
+.footer-menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center
+}
+
+.footer-support{
+    color: #182337;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    text-align: justify;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-coop{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #9699a3;
+}
+
+.footer-coop p{
+    text-align: center;
+    color: #9699a3;
+    box-sizing: border-box;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: inter regular,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.copyright__over{
+    text-align: center;
+    color: #9699a3;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    white-space: normal!important;
+    letter-spacing: -0.8px;
+}
+.coopyright{
+    color: #9699a3;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    display: block;
+}
+
+.rights-reserved{
+    text-align: center;
+    color: #9699a3;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    display: block;
+    line-height: 20px;
+}
+
+.footer-support span{
+    color: #182337;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    flex: 0 0 100%;
+    order: 1;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.footer-support span a{
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    transition: .2s;
+    font-family: inter regular,Arial,sans-serif;
+    color: #9699a3;
+}
+
+.--rta{
+    text-align: justify;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    transition: .2s;
+    font-family: inter regular,Arial,sans-serif;
+    outline: 0;
+    text-decoration: none;
+    color: #1987cd;
+}
+
+.--asacp{
+    --vh: 6.68px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    text-align: justify;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    transition: .2s;
+    color: #0a35fa;
+    font-family: inter regular,Arial,sans-serif;
+}
+
+
+
+
 
 
 
@@ -1219,20 +1422,25 @@ a{
         margin-top: 40px;
         margin-bottom: 40px;
         padding-left:40px;
-    }
 
-    .apple-store{
-        height: 80px;
-
-    }
-
-    .google-store{
-        height: 80px;
-
-    }
-
-
+    } 
 
     
+.footer-support span{
+    color: #182337;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    /* display: block; */
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    /* flex: 0 0 100%; */
+    /* order: 1; */
+    margin-bottom: 0;
+    margin-top: 20px;
+}
    
 }
