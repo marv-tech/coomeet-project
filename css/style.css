@@ -1064,6 +1064,52 @@ footer{
     height: 38px;
 }
 
+.accordion{
+  
+    color: #182337;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.accordion-item{
+    color: #182337;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    position: relative;
+    padding: 16px 20px;
+    background: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05),inset 0 1px 0 #fff;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+
+/* .accordion-header{
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    position: relative;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: inter semi bold,Arial,sans-serif;
+    padding-right: 45px;
+    color: #0a35fa;
+} */
+
 
 
 
