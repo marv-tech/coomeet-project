@@ -875,11 +875,6 @@ footer{
     padding-bottom: 30px;
     margin-bottom: 30px;
     border-bottom: 1px solid #efefef;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: justify;
-    justify-content: space-between;
 }
 
 .footer-menu{
@@ -921,12 +916,7 @@ footer{
     padding-bottom: 30px;
     margin-bottom: 30px;
     border-bottom: 1px solid #efefef;
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    text-align: justify;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    text-align: center;
 }
 
 .footer-coop{
@@ -1014,31 +1004,24 @@ footer{
     font: inherit;
     vertical-align: baseline;
     text-decoration: none;
-    transition: .2s;
-    font-family: inter regular,Arial,sans-serif;
     color: #9699a3;
 }
 
 .--rta{
-    text-align: justify;
+    display: inline-block;
+    text-align: center;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0;
     font: inherit;
     vertical-align: baseline;
-    transition: .2s;
-    font-family: inter regular,Arial,sans-serif;
-    outline: 0;
     text-decoration: none;
-    color: #1987cd;
 }
 
 .--asacp{
-    --vh: 6.68px;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    text-align: justify;
+    display: inline-block;
+    text-align: center;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -1046,18 +1029,40 @@ footer{
     font: inherit;
     vertical-align: baseline;
     text-decoration: none;
-    transition: .2s;
-    color: #0a35fa;
-    font-family: inter regular,Arial,sans-serif;
 }
 
+.--safelabeling{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+    max-width: 125px;
+    background: url(../img/safelabering.png) center no-repeat;
+    background-size: contain;
+    width: 120px;
+    height: 38px
+}
 
-
-
-
-
-
-
+.--miss{
+    color: #182337;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+    max-width: 125px;
+    background: url(../img/miss.png) center no-repeat;
+    background-size: contain;
+    width: 135px;
+    height: 38px;
+}
 
 
 
@@ -1425,22 +1430,89 @@ footer{
 
     } 
 
+    .footer-support{
+        color: #182337;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #efefef;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        text-align: justify;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
     
-.footer-support span{
-    color: #182337;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    /* display: block; */
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    /* flex: 0 0 100%; */
-    /* order: 1; */
-    margin-bottom: 0;
-    margin-top: 20px;
-}
+    .footer-support span{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        display: block;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 0;
+        flex: 1;
+        margin-top: 0;
+        order: 0;
+        max-width: 260px;
+        text-align: right;
+    }
+
+    .footer-nav{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        position: relative;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #efefef;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: justify;
+        justify-content: space-between;
+    }
+
+    .--rta{
+        text-align: justify;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        transition: .2s;
+        font-family: inter regular,Arial,sans-serif;
+        outline: 0;
+        text-decoration: none;
+        color: #1987cd;
+    }
+    
+    .--asacp{
+        text-align: justify;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        text-decoration: none;
+        transition: .2s;
+        color: #0a35fa;
+    }
+    
+    
    
 }

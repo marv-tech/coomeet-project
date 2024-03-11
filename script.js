@@ -3,3 +3,4 @@ addColor.forEach(text => {
    text .style.color ="#EB5285"
     
 });
+
