@@ -744,6 +744,8 @@ a{
 }
 
 .sect7{
+
+    padding: 40px;
     background:  linear-gradient(0deg,rgba(255,255,255,.85),rgba(255,255,255,.85)),linear-gradient(252.44deg,#1ca5fc 0,#f55280 100%);
 
 }
@@ -1065,7 +1067,6 @@ footer{
 }
 
 .accordion{
-  
     color: #182337;
     box-sizing: border-box;
     margin: 0;
@@ -1078,19 +1079,49 @@ footer{
 .accordion-item{
     color: #182337;
     box-sizing: border-box;
+    margin: 30px auto;
+    border-radius: 12px !important;
+    font: inherit;
+    vertical-align: baseline;
+    position: relative;
+    padding: 10px 20px;
+    background: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05),inset 0 1px 0 #fff;
+    width: 70%;
+    cursor: pointer;
+
+}
+
+.accordion-button{
+    cursor: pointer;
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
     border: 0;
     font: inherit;
     vertical-align: baseline;
     position: relative;
-    padding: 16px 20px;
-    background: #fff;
-    margin-bottom: 20px;
-    box-shadow: 0 1px 3px rgba(0,0,0,.05),inset 0 1px 0 #fff;
-    border-radius: 10px;
-    cursor: pointer;
-
+    padding-right: 45px !important;
+    color: #0a35fa !important;
+    font-size: 20px !important;
+    line-height: 24px;
 }
+
+.accordion-body{
+    color: #182337;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 20px;
+    display: block;
+}
+
 
 
 
