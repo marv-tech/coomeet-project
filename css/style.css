@@ -1246,7 +1246,7 @@ footer{
         height: 120px;
         left: 45%;
         margin-left: 0;
-        bottom: -1px;
+        bottom: 12px;
         z-index: 1;
         background-size: contain;
     }
@@ -1269,12 +1269,12 @@ footer{
         content: "";
         position: absolute;
         width: 100%;
-        height:245px;
+        height:265px;
         background: url(../img/wave.png) 50% 100% no-repeat;
-        background-size: 1520px;
+        background-size: 2000px;
         margin: 0;
         padding: 0;
-        bottom: -60px;
+        bottom: -80px;
         left: 0px;
         right: 0;
         z-index: 1;
