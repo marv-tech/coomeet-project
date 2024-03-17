@@ -1,5 +1,6 @@
 /* Mobile first design */
 
+
 * body{
     box-sizing: border-box;
     height: 100%;
@@ -153,46 +154,46 @@ a{
     display: none;
 }
 
-/* .desktopSection:before {
+.desktopSection:before {
     content: "";
     position: absolute;
     background: url(../img/blue-pill.svg) no-repeat;
     width: 90px;
-    height: 120px;
-    left: 50%;
+    height: 100px;
+    left: 30%;
     margin-left: 0;
-    bottom: -25px;
-    z-index: 2;
+    bottom: 25px;
+    z-index: 1;
     background-size: contain;
-} */
+} 
 
-/* .desktopSection .miniSubText:before  {
+.desktopSection .miniSubText:before  {
     content: "";
     position: absolute;
     background: url(../img/pink-cam.svg) no-repeat;
     width: 90px;
     height: 120px;
-    left: 50%;
+    left: 68%;
     margin-left: 0;
     bottom: -25px;
     z-index: 2;
     background-size: contain;
-} */
+} 
 
-/* .desktopSection:after {
+.desktopSection:after {
     content: "";
     position: absolute;
-    width: 100%;
-    height:150px;
-    background-size:150px;
-    background: url(../img/new-wave.png) 50% 100% no-repeat;
+    width: 950px;
+    height:100%;
+    background-size: 950px;
+    background: url(../img/wave-mobile.png) 50% 100% no-repeat;
     margin: 0;
     padding: 0;
-    bottom: -95px;
-    left: 0px;
+    bottom: -285px;
+    left: -80px;
     right: 0;
     z-index: 1;
-}  */
+} 
 
 
 .small{
@@ -497,7 +498,6 @@ a{
 .sect3Title{
     font-size: 28px;
     line-height: 34px;
-    font-family: inter semi bold,Arial,sans-serif;
     margin-bottom: 40px;
     text-align: center;
 }
@@ -1116,7 +1116,6 @@ footer{
     box-shadow: 0 1px 3px rgba(0,0,0,.05),inset 0 1px 0 #fff;
     width: 70%;
     cursor: pointer;
-
 }
 
 .accordion-button{
@@ -1134,6 +1133,23 @@ footer{
     line-height: 24px;
 }
 
+.accordion-button:not(.collapsed){
+    background-color: #FFFFFF!important;
+    border-bottom: 0px !important;
+}
+
+.accordion-button:not(.collapsed):hover{
+    background-color:rgb(248,231,239)!important;
+}
+
+.accordion-button.collapsed::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230a35fa'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230a35fa'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")!important;
+}
+
 .accordion-body{
     color: #182337;
     cursor: pointer;
@@ -1149,19 +1165,64 @@ footer{
 }
 
 
-.accordion-button:after{
-    border: 2px solid #0a35fa;
-    padding-bottom: 12px;
-    padding-top: 12px;
-    padding-right:12px ;
-    padding-left: 12px;
-    border-radius: 50%;
-    font-size: 10px;
-    color:  #0a35fa !important;
+.accordion-button:before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    color: primary;
+    margin-top: -15px;
+    right: 38px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #0a35fa;
+    border-radius: 100px
+} 
+
+@media only screen and (min-width: 750px) {
+
+
+    .desktopSection:before {
+        content: "";
+        position: absolute;
+        background: url(../img/blue-pill.svg) no-repeat;
+        width: 90px;
+        height: 100px;
+        left: 45%;
+        margin-left: 0;
+        bottom: 57px;
+        z-index: 1;
+        background-size: contain;
+    } 
+
+    .desktopSection .miniSubText:before  {
+        content: "";
+        position: absolute;
+        background: url(../img/pink-cam.svg) no-repeat;
+        width: 110px;
+        height: 120px;
+        left: 64%;
+        margin-left: 0;
+        bottom: 8px;
+        z-index: 2;
+        background-size: contain;
+    } 
+
+    .desktopSection:after {
+        content: "";
+        position: absolute;
+        width: 980px;
+        height:100%;
+        background-size: 950px;
+        background: url(../img/wave-mobile.png) 50% 100% no-repeat;
+        margin: 0;
+        padding: 0;
+        bottom: -215px;
+        left: -95px;
+        right: 0;
+        z-index: 1;
+    } 
 
 }
-
-
 
 
 @media only screen and (min-width: 1025px) {
@@ -1185,7 +1246,7 @@ footer{
         height: 120px;
         left: 45%;
         margin-left: 0;
-        bottom: 1px;
+        bottom: -1px;
         z-index: 1;
         background-size: contain;
     }
@@ -1194,9 +1255,9 @@ footer{
         content: "";
         position: absolute;
         background: url(../img/pink-cam.svg) no-repeat;
-        width: 90px;
+        width: 100px;
         height: 120px;
-        left: 55%;
+        left: 52%;
         margin-left: 0;
         bottom: -25px;
         z-index: 2;
@@ -1208,7 +1269,7 @@ footer{
         content: "";
         position: absolute;
         width: 100%;
-        height:230px;
+        height:245px;
         background: url(../img/wave.png) 50% 100% no-repeat;
         background-size: 1520px;
         margin: 0;
@@ -1298,7 +1359,8 @@ footer{
     .big{
         display: block;
         width: 100%; 
-        height:387px;
+        /* height:387px; */
+        object-fit: cover;
 
     }
 
@@ -1438,7 +1500,9 @@ footer{
     }
 
     .sect3Title{
-        margin-top: 100px;
+        margin-top: 50px;
+        font-size: 40px !important;
+        font-weight: 600 !important;
     }
 
     .featureImgDiv{
