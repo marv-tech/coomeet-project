@@ -160,7 +160,7 @@ a{
     height: 100px;
     left: 45%;
     margin-left: 0;
-    bottom: 35px;
+    bottom: 45px;
     z-index: 1;
     background-size: contain;
 } 
@@ -197,7 +197,7 @@ a{
 .small{
     display: block;
     width: 320px;
-    margin-bottom: 150px;
+    margin-bottom: 210px;
 
 }
 
