@@ -26,7 +26,7 @@
 }
 
 .text-titles{
-    padding: 0 20px 0 20px;
+    /* padding: 0 2px 0 2px; */
     margin-bottom: 0;
 }
 
@@ -106,9 +106,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 25px ;
-    padding-right: 25px ;
-    margin: 15px;
+    margin: 5px;
     gap: 10px; 
 }
 
@@ -1110,11 +1108,11 @@ footer{
     font: inherit;
     vertical-align: baseline;
     position: relative;
-    padding: 10px 20px;
+    padding: 10px 30px;
     background: #fff;
     margin-bottom: 20px;
     box-shadow: 0 1px 3px rgba(0,0,0,.05),inset 0 1px 0 #fff;
-    width: 70%;
+    width: 100%;
     cursor: pointer;
 }
 
@@ -1138,9 +1136,15 @@ footer{
     border-bottom: 0px !important;
 }
 
+.accordion-button.collapsed{
+    /* width: 290px; */
+    width: 100%;
+}
+
 .accordion-button:not(.collapsed):hover{
     background-color:rgb(248,231,239)!important;
 }
+
 
 .accordion-button.collapsed::after {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230a35fa'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
@@ -1175,8 +1179,13 @@ footer{
     width: 32px;
     height: 32px;
     border: 1px solid #0a35fa;
-    border-radius: 100px
+    border-radius: 100px;
 } 
+
+.accd-txt{
+    padding-right: 30px;
+}
+
 
 @media only screen and (min-width: 750px) {
 
@@ -1711,6 +1720,27 @@ footer{
         text-decoration: none;
         transition: .2s;
         color: #0a35fa;
+    }
+
+
+    .accordion-item{
+        color: #182337;
+        box-sizing: border-box;
+        margin: 30px auto;
+        border-radius: 12px !important;
+        font: inherit;
+        vertical-align: baseline;
+        position: relative;
+        padding: 10px 20px;
+        background: #fff;
+        margin-bottom: 20px;
+        box-shadow: 0 1px 3px rgba(0,0,0,.05),inset 0 1px 0 #fff;
+        width: 70%;
+        cursor: pointer;
+    }
+
+    .accd-txt{
+        padding-right: 0;
     }
     
     
