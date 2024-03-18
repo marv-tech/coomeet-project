@@ -219,6 +219,8 @@ a{
     max-width: 700px;
 }
 
+
+
 #sect2{
     text-align: center;
 }
@@ -1257,11 +1259,11 @@ footer{
         content: "";
         position: absolute;
         background: url(../img/blue-pill.svg) no-repeat;
-        width: 70px;
+        width: 80px;
         height: 120px;
-        left: 45%;
+        left: 40%;
         margin-left: 0;
-        bottom: -100px;
+        bottom: -75px;
         z-index: 1;
         background-size: contain;
     }
@@ -1747,6 +1749,13 @@ footer{
 
     .accd-txt{
         padding-right: 0;
+    }
+
+    .grp-btn{
+        margin-top: -100px;
+        /* border: 2px solid red; */
+        position: relative;
+        z-index: 1;
     }
     
     
