@@ -54,6 +54,10 @@
     background-color: #0a35fa;
 }
 
+.button:hover{
+    cursor: pointer;
+}
+
 .button p{
     text-align: center;
     margin: 0 auto;
